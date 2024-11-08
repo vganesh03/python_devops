@@ -25,6 +25,8 @@ def main():
     num2 = 10
     
     sum_result, difference_result = calculate_operations(num1, num2)
+    print("sum result: ",sum_result)
+    print("difference_result: ",difference_result)
     plot_graph(sum_result, difference_result)
 
 if __name__ == "__main__":
