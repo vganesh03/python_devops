@@ -21,8 +21,8 @@ def plot_graph(sum_result, difference_result):
 # Main function to execute the calculations and plotting
 def main():
     # Example input, you can modify this to take user input or other sources
-    num1 = 5
-    num2 = 3
+    num1 = 25
+    num2 = 10
     
     sum_result, difference_result = calculate_operations(num1, num2)
     plot_graph(sum_result, difference_result)
